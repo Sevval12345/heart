@@ -11,6 +11,7 @@ Original file is located at
 !pip install pyvirtualdisplay
 !apt install ghostscript
 
+--------------------------------------------------------------------------------------
 #Kalp ama resim
 
 import matplotlib.pyplot as plt
@@ -35,6 +36,9 @@ for i in range(15):
   ax.plot(x_vals, y_vals, color='red')
 
 plt.show()
+
+
+---------------------------------------------------------------------------------------------------------------------
 
 import matplotlib.pyplot as plt
 import numpy as np
